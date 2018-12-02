@@ -11,7 +11,7 @@ github_username:  noahhaasis
 # Build settings
 markdown: kramdown
 permalink: ":title/"
-highlighter: rounge
+highlighter: rouge
 
 # Pagination
 plugins: [jekyll-paginate]
