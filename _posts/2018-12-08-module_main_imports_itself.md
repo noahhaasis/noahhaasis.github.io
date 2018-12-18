@@ -12,7 +12,7 @@ Module imports form a cycle:
 
 # Solution:
 If you don't name your module ghc defaults to "Main", so you have to declare a module at the top of the file.
-```
+```haskell
 module Test where
 import Main hiding (main)
 ```
